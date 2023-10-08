@@ -5,3 +5,4 @@ if (!function_exists('remove_greek_accents')) {
         $str = strtr($str, $unwanted_array);
         return $str;
     }
+}
